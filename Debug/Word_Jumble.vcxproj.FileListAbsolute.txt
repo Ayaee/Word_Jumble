@@ -1,0 +1,2 @@
+H:\Artfx\C++\Word_Jumble\Debug\Word_Jumble.exe
+H:\Artfx\C++\Word_Jumble\Debug\Word_Jumble.pdb
