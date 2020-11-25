@@ -29,7 +29,7 @@ int main(int argc, char** argv[])
 
 	cout << "Bienvenue dans le Word Jumble, un jeu ou il faut deviner le mot melange.\n";
 	cout << "Comme explique plus haut l'objectif du jeu et de trouver le bon mot.\n";
-	cout << "Ecris 'hint' si tu as besoin d'aide pour trouver le mot ou 'quitter' pour fermer le jeu a tout moment.\n\n";
+	cout << "Ecris 'hint' si tu as besoin d'aide pour trouver le mot ou 'quit' pour fermer le jeu a tout moment.\n\n";
 
 	while (rejouer)
 	{
@@ -101,7 +101,7 @@ int main(int argc, char** argv[])
 				correct = false;
 				rejouer = true;
 			}
-			else if (theGuess == "quitter")
+			else if (theGuess == "quit")
 			{
 				correct = true;
 				rejouer = false;
